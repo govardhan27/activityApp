@@ -15,7 +15,7 @@ const AddActivity = ({ storeActivity }) => {
 			<input onChange={event => setTitle(event.target.value)} />
 			<h2>Activity Description</h2>
 			<textarea onChange={event => setDescription(event.target.value)} />
-			<button onClick={saveActivity}>Start</button>
+			<button onClick={saveActivity}>saveActivity</button>
 		</div>
 	)
 };
